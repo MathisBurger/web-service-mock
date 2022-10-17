@@ -1,0 +1,7 @@
+mock:
+  routes:
+    - {path: '/test', method: 'GET', response: 'default'}
+  responses:
+     default:
+       status: 200
+       response: '{"test": test}'
